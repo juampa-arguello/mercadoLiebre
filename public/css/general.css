@@ -1,0 +1,27 @@
+:root{
+    --yellow:#EAC926;
+    --blue: #03264C;
+    --lightBlue: #1259c3;
+    --darkGrey: #666;
+    --lightGrey: #ebebeb;
+    --green: #39b54a;
+}
+
+/* Familia Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'reboto','sanz-serif';
+    font-size: 12px;
+}
+
+header{
+    background-color: var(--yellow);
+}
+
+body{
+    background-color: var(--lightGrey);
+}
+

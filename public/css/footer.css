@@ -1,0 +1,15 @@
+footer section {
+    text-align: center;
+    margin: 35px 30px
+    }
+    
+    footer section i {
+        color:--bluelight;
+        font-size: 28px;
+    }
+    
+    footer small{
+        margin-left: 15px;
+        display: block;
+        margin-bottom: 15px;
+    }
