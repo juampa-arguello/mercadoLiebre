@@ -1,10 +1,14 @@
+footer{
+    background-color: white;
+    padding: 10px 0;
+}
 footer section {
     text-align: center;
     margin: 35px 30px
     }
     
-    footer section i {
-        color:--bluelight;
+    footer section div i {
+        color:var(--lightBlue);
         font-size: 28px;
     }
     

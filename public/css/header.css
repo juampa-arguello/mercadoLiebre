@@ -21,7 +21,8 @@ li{
 }
 
 .dues{
-    margin: 10px 0 10px 40px;
+   /*  margin: 10px 0 10px 40px; */
+   text-align: center;
 }
 
 a{
@@ -34,7 +35,7 @@ a{
 
 .menu i{
     padding: 10px;
-    background-color: var(--blue);
+    background-color: var(--lightBlue);
     color: white;
     border-radius: 10%;
     margin: 20px 45% 20px;
@@ -42,4 +43,15 @@ a{
 }
 .banner{
     display: none;
+}
+header nav ul li{
+    display:none
+}
+@media(min-width:361px){
+    .menu i{
+        display:none;
+    }
+    header nav ul li{
+        display:block
+    }
 }
